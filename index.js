@@ -22,5 +22,5 @@ function appendKitten(name){
   return addKitten;
 }
 function appendKitten(name){
-  addKitten = [name, ...kittens];
+  addKitten = [...kittens];
 }
