@@ -29,3 +29,7 @@ function prependKitten(name){
 function removeLastKitten(){
   var newKittens = []
 }
+function removeElementFromEndOfArray(chocolateBars){
+  chocolateBars = chocolateBars.slice(0, chocolateBars.length - 1)
+  return chocolateBars
+}
