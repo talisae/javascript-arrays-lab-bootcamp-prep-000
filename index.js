@@ -21,3 +21,6 @@ function appendKitten(kittens, name){
   addkitten.push(name);
   return addKitten;
 }
+function appendKitten(kittens, name){
+  addKitten = [name, ...kittens];
+}
